@@ -17,7 +17,7 @@ const About = () => {
           <div className="space-y-4 text-neutral-200 text-pretty tracking-tight">
             <p>Técnico e Engenheiro Mecatrônico de formação, sempre fui averso a idéia de programação, os embarcados cheios de fios com lógicas abstratas e compiladores complicados sempre foram a danação durante minha formação. Só de lembrar dos Arduinos e PICs com seus inúmeros pinos e portas me fazer tremer na base e arrepiar os pelos da minha nuca, por isso durante minha formação nunca pensei nem por um momento que me dedicaria aos códigos, terminais e letrinhas coloridas num fundo escuro.</p>
             <p>Isso era uma realidade até finalmente ter contato com o desenvolvimento Web!</p>
-            <p>Depois que conheci o Front End, me apaixonei perdidamente por esse braço do desenvolvimento, ver as tabelas, cards, headers e heros, botões coloridos e divs centralizadas, eu não pude pensar em outra coisa que não fosse: "Eu preciso me aprofundar mais nesse universo".</p>
+            <p>Depois que conheci o Front End, me apaixonei perdidamente por esse braço do desenvolvimento, ver as tabelas, cards, headers e heros, botões coloridos e divs centralizadas, eu não pude pensar em outra coisa que não fosse: &quot;Eu preciso me aprofundar mais nesse universo&quot;.</p>
           </div>
 
           <div className="space-y-4">
