@@ -26,15 +26,13 @@ export default function Home() {
           <h1 className='text-4xl'>Felipe Porcelli</h1>
           <h3 className='text-xl font-bold mt-2 bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500'>Front-end Developer</h3>
           <p className='text-pretty tracking-tight mt-3 text-neutral-300'>
-            Hello, it's Felipe. I'm a Junior Web Developer with 3 years of experience, currently working on my own projects.{" "}
+            Hello, it&apos;s Felipe. I&apos;m a Junior Web Developer with 3 years of experience, currently working on my own projects.{" "}
             <Link href="/contact" className='bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 font-bold opacity-90 hover:opacity-100 transition-opacity'>Contact Me {" "}</Link>
             for freelance work anytime.
           </p>
         </div>
-
         <nav className='space-y-4'>
           <h3 className='text-xl font-bold text-emerald-400'>Menu</h3>
-
           <div className='flex flex-col gap-3'>
             <Link href="/about" className='w-1/2 border bg-black/30 border-gray-700/40 flex group items-center justify-between p-3 cursor-pointer transition-colors duration-200 ease-linear hover:bg-zinc-800/40 rounded-lg'>
               <span>About</span>
@@ -53,12 +51,10 @@ export default function Home() {
               <BiChevronRight className='mr-5 text-2xl translate-x-0 group-hover:translate-x-3 text-gray-300 opacity-0 group-hover: opacity-100 transition-all duration-200' />
             </Link>
           </div>
-
           <div className='flex gap-2 items-center'>
             <h3 className='text-xl bg-clip-text font-bold text-transparent bg-gradient-to-r from-emerald-400 via-sky-400 to-blue-400'>Check out my socials</h3>
             <HiArrowDown className='text-2xl text-sky-400' />
           </div>
-
           <div className='flex flex-col gap-3'>
             <Button className='bg-black/30 w-full p-6 text-gray-300 border border-gray-700/40 hover:bg-slate-300/20 hover:text-white transition-colors duration-200 ease-linear'>
               <BiLogoGithub /> GitHub
