@@ -16,11 +16,11 @@ const Work = () => {
       <div className="relative flex justify-center">
         <Link href="/">
           <Button variant="ghost" className="hover:bg-black absolute left-0 hover:text-white rounded-full duration-300 mb-5 cursor-pointer">
-            Back <BsArrowLeft className="ml-2"/>
+            Voltar <BsArrowLeft className="ml-2"/>
           </Button>
         </Link>
 
-        <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-sky-300 h-14 mt-14 sm:mt-0">My Work</h1>
+        <h1 className="lg:text-5xl text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-sky-300 h-14 mt-14 sm:mt-0">Meus projetos</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {
@@ -41,12 +41,12 @@ const Work = () => {
 
                 <div className="flex gap-3">
                   <Button variant="outline" className="flex-1 text-white bg-black backdrop-blur-sm border-neutral-800/70 transition-colors duration-200 ease-linear" asChild>
-                    <a href="">
+                    <a href={project.code}>
                       <BiLogoGithub className="h-4 w-4 mr-2" /> Code
                     </a>
                   </Button>
                   <Button variant="ghost" className="flex-1 text-gray-300 backdrop-blur-sm border-neutral-800/70 transition-colors duration-200 ease-linear" asChild>
-                    <a href="">
+                    <a href={project.live}>
                       <CgExternal className="mr-2 h-4 w-4" /> Live Demo
                     </a>
                   </Button>

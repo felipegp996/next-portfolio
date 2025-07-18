@@ -2,31 +2,21 @@
   "projects": [
     {
       "id": 1,
-      "title": "E-commerce Platform",
-      "description": "A full-stack e-commerce solution with real-time inventory management and secure payment processing.",
-      "image": "/1.png",
-      "tags": ["Next.js", "TypeScript", "Stripe", "Prisma"]
+      "title": "Balatro clone",
+      "description": "Um projeto divertido ainda em desenvolvimento onde estou criando um clone do jogo Balatro com Next.js",
+      "image": "/balatro-clone.png",
+      "tags": ["Next.js", "TypeScript", "Tailwind"],
+      "code": "https://github.com/felipegp996/balatro-clone",
+      "live": "https://balatro-clone-alpha.vercel.app/game-view"
     },
     {
       "id": 2,
-      "title": "Social Media Dashboard",
-      "description": "Analytics dashboard for social media management with real-time data visualization.",
-      "image": "/2.png",
-      "tags": ["React", "D3.js", "Node.js", "MongoDB"]
-    },
-    {
-      "id": 3,
-      "title": "AI-Powered Chat Application",
-      "description": "Real-time chat application with AI integration for automated responses and content moderation.",
-      "image": "/3.png",
-      "tags": ["Next.js", "OpenAI", "WebSocket", "Tailwind"]
-    },
-    {
-      "id": 4,
-      "title": "Portfolio Website",
-      "description": "Modern portfolio website with dynamic content management and responsive design.",
-      "image": "/4.png",
-      "tags": ["Next.js", "Tailwind", "Framer Motion", "Sanity"]
+      "title": "Next Dashboard",
+      "description": "Meu primeiro contato com Next.js, este projeto é o curso introdutório a esse framework incrível!",
+      "image": "/next-dashboard.png",
+      "tags": ["React", "Next.js", "Tailwind"],
+      "code": "https://github.com/felipegp996/nextjs-dashboard",
+      "live": "https://nextjs-dashboard-mocha-ten.vercel.app/dashboard"
     }
   ]
 }
