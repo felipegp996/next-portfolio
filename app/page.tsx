@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import {Button} from '@/components/ui/button'
-import {BiBuilding, BiChevronRight, BiLogoGithub, BiLogoLinkedin, BiLogoTiktok, BiLogoYoutube} from "react-icons/bi"
+import {BiBuilding, BiChevronRight, BiLogoGithub, BiLogoLinkedin, BiLogoYoutube} from "react-icons/bi"
 import {HiArrowDown} from "react-icons/hi"
 
 export default function Home() {
