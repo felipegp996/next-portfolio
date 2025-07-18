@@ -11,14 +11,14 @@ const Contact = () => {
 
           <Link href="/">
             <Button variant="ghost" className="hover:bg-black hover:text-white rounded-full duration-300 mb-5 cursor-pointer">
-              Back <BsArrowLeft className="ml-2"/>
+              Voltar <BsArrowLeft className="ml-2"/>
             </Button>
           </Link>
           <div className="space-y-6">
-            <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 h-14 mt-14 sm:mt-0">Get in touch</h1>
+            <h1 className="lg:text-5xl text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 h-14 mt-2 sm:mt-0">Entre em contato</h1>
             <div className="space-y-6">
               <p className="text-pretty text-neutral-200 tracking-tight">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque architecto sequi dolorem, voluptatibus laborum delectus ipsam inventore praesentium beatae illum deleniti eos nihil ut error at eum quos ab in.
+                Estou sempre aberto para discutir novos projetos e oportunidades, entre em contato comigo a partir dos métodos abaixo!
               </p>
 
               <div className="space-y-4">
@@ -32,20 +32,20 @@ const Contact = () => {
                 <div className="flex items-center gap-3 p-4 rounded-lg border border-gray-700/50 bg-black/40">
                   <BiPhone className="w-5 h-5 text-emerald-400" />
                   <div>
-                    <h3 className="font-medium">Phone</h3>
+                    <h3 className="font-medium">Telefone</h3>
                     <a href="" className="text-neutral-500 hover:text-emerald-400 transition-colors">+55 (15) 99122-9732</a>
                   </div>
                 </div>
                 <div className="flex items-center gap-3 p-4 rounded-lg border border-gray-700/50 bg-black/40">
                   <BiMapPin className="w-5 h-5 text-emerald-400" />
                   <div>
-                    <h3 className="font-medium">Location</h3>
-                    <a href="" className="text-neutral-500 hover:text-emerald-400 transition-colors">Sorocaba, Sã0 Paulo - Brasil</a>
+                    <h3 className="font-medium">Localização</h3>
+                    <a href="" className="text-neutral-500 hover:text-emerald-400 transition-colors">Sorocaba, São Paulo - Brasil</a>
                   </div>
                 </div>
               </div>
 
-              <div className="space-y-4">
+              {/* <div className="space-y-4">
                 <h2 className="text-2xl font-semibold">Send me a message!</h2>
 
                 <form action="" className="space-y-4">
@@ -64,7 +64,7 @@ const Contact = () => {
 
                   <Button className="w-full text-black bg-emerald-400 hover:bg-emerald-500">Send Message</Button>
                 </form>
-              </div>
+              </div> */}
             </div>
           </div>
       </main>

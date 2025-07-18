@@ -1,30 +1,22 @@
 {
   "categories": [
     {
-      "name": "Frontend Development",
+      "name": "Desenvolvimento Front End",
       "skills": [
-        { "name": "React.js", "level": 95 },
-        { "name": "Next.js", "level": 90 },
+        { "name": "React.js", "level": 60 },
+        { "name": "Next.js", "level": 70 },
         { "name": "TypeScript", "level": 85 },
-        { "name": "Tailwind CSS", "level": 95 }
+        { "name": "Vue.js", "level": 90 },
+        { "name": "Single SPA", "level": 75 },
+        { "name": "SCSS", "level": 95 },
+        { "name": "Storybook", "level": 70 }
       ]
     },
     {
-      "name": "Backend Development",
-      "skills": [
-        { "name": "Node.js", "level": 90 },
-        { "name": "Express.js", "level": 85 },
-        { "name": "MongoDB", "level": 80 },
-        { "name": "PostgreSQL", "level": 75 }
-      ]
-    },
-    {
-      "name": "Tools & Others",
+      "name": "Ferramentas",
       "skills": [
         { "name": "Git & GitHub", "level": 90 },
-        { "name": "Docker", "level": 80 },
-        { "name": "AWS", "level": 75 },
-        { "name": "CI/CD", "level": 85 }
+        { "name": "Azure", "level": 70 }
       ]
     }
   ]

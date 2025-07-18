@@ -10,13 +10,13 @@ const page = () => {
         
         <Link href="/">
           <Button variant="ghost" className="hover:bg-black hover:text-white rounded-full duration-300 mb-5 cursor-pointer">
-            Back <BsArrowLeft className="ml-2"/>
+            Voltar <BsArrowLeft className="ml-2"/>
           </Button>
         </Link>
 
         <div className="space-y-6">
 
-          <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 ">Techinical Skills</h1>
+          <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 ">Habilidades Técnicas</h1>
           
           <div className="space-y-8">
             {
@@ -28,7 +28,7 @@ const page = () => {
                       <div key={skill.name} className="p-4 rounded-lg border border-gray-700/50 bg-black/40">
                         <h3 className="font-medium mb-2">{skill.name}</h3>
                         <div className="w-full bg-gray-200 rounded-full h-2.5">
-                          <div className="bg-emerald-400 h-2.5 rounded-full" style={{width: `${skill.level}`}}/>
+                          <div className="bg-emerald-400 h-2.5 rounded-full" style={{width: `${skill.level}%`}}/>
                         </div>
                       </div>
                     ))}
