@@ -36,6 +36,10 @@ const About = () => {
               <p className="font-medium">Desenvolvedor front-end - Beta Learning/Clear Sale, 2022 - 2025</p>
               <p className="text-sm text-neutral-500">Desenvolvedor Front-end responsável por manter e criar funcionalidades no projeto MyClear utilizando Vue.Js, SCSS, HTML e Vuex, utilizando gitflow e Azure DevOps no versionamento e documentação do projeto</p>
             </div>
+            <div className="mb-6">
+              <p className="font-medium">Desenvolvedor front-end Pleno - Vylex, 2025 - Presente</p>
+              <p className="text-sm text-neutral-500">Desenvolvedor na Vylex, focado no atendimento à Medcof, empresa líder em educação médica. Sou responsável por implementar soluções escaláveis utilizando TypeScript, React, Next.js e Tailwind. Contribuo para a evolução da plataforma que aplica um método revolucionário de ensino, preparando centenas de milhares de médicos para as provas de residência em todo o território nacional. Unindo performance técnica ao propósito de transformar a carreira de profissionais da saúde.</p>
+            </div>
           </div>
         </div>
       </main>

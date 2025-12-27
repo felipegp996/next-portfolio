@@ -3,20 +3,23 @@
     {
       "name": "Desenvolvimento Front End",
       "skills": [
-        { "name": "React.js", "level": 60 },
-        { "name": "Next.js", "level": 70 },
+        { "name": "React.js", "level": 70 },
+        { "name": "Next.js", "level": 80 },
         { "name": "TypeScript", "level": 85 },
         { "name": "Vue.js", "level": 90 },
         { "name": "Single SPA", "level": 75 },
         { "name": "SCSS", "level": 95 },
-        { "name": "Storybook", "level": 70 }
+        { "name": "Storybook", "level": 70 },
+        { "name": "Tailwind CSS", "level": 85 }
       ]
     },
     {
       "name": "Ferramentas",
       "skills": [
         { "name": "Git & GitHub", "level": 90 },
-        { "name": "Azure", "level": 70 }
+        { "name": "Azure", "level": 70 },
+        { "name": "Vercel", "level": 70 },
+        { "name": "JIRA", "level": 75 }
       ]
     }
   ]

@@ -17,6 +17,15 @@
       "tags": ["React", "Next.js", "Tailwind"],
       "code": "https://github.com/felipegp996/nextjs-dashboard",
       "live": "https://nextjs-dashboard-mocha-ten.vercel.app/dashboard"
+    },
+    {
+      "id": 3,
+      "title": "JSON to TOON converter",
+      "description": "Minha primeira extensão para VSCode e também para Cursor, um simples conversor de arquivos JSON para arquivos no formato TOON.",
+      "image": "/jsontotoon.png",
+      "tags": ["TypeScript", "VSCode API"],
+      "code": "https://github.com/felipegp996/json-2-toon",
+      "live": "https://open-vsx.org/extension/porcelli-dev/json-2-toon"
     }
   ]
 }
